@@ -1,0 +1,42 @@
+\documentclass[11pt, a4paper]{book}
+\usepackage{physics}
+\usepackage[margin=1in, headheight=14pt]{geometry}
+\usepackage{amsfonts,amsmath,amssymb,suetterl}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{mdwlist}
+\usepackage[nodisplayskipstretch]{setspace}
+\usepackage{float,graphicx}
+\usepackage{epstopdf}
+\usepackage{pgfplots}
+
+%2
+\usepackage{siunitx}
+\usepackage{tkz-euclide}
+
+\usetikzlibrary{calc}
+\usetikzlibrary{positioning}
+\usetikzlibrary{shapes.geometric}
+%2 end
+
+\pgfplotsset{compat = newest}
+\usetikzlibrary{arrows.meta}
+
+\setstretch{1.5}
+\pagestyle{plain}
+
+\newcommand{\lmrk}[2]{\hfill\textbf{Total for Question #1 is #2 marks}}
+\newcommand{\mrk}[1]{\hfill\textbf{(#1)}}
+\newcommand{\strch}{\vspace{\stretch{1}}}
+\newcommand{\dline}{\tikz\draw[thick, dashed] (0,0) -- (3,0);}
+
+\parindent 0ex
+\setlength{\parskip}{1em}
+
+\graphicspath{{images}}
+
+\begin{document}
+  \input{chapters/coverpage.tex}
+  \input{chapters/chapter1.tex}
+  \input{chapters/chapter2.tex}
+\end{document}
