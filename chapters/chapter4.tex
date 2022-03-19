@@ -1,0 +1,24 @@
+
+\chapter{Congruent Triangle Proofs}
+
+\begin{enumerate}
+  \item \mrk{4}
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=1.3]
+      \tkzDefPoints{0/4/A,-5/0/B,3/0/C,5/1.8/L}
+      \tkzDrawPolygon(A,B,C)
+
+      \tkzDefMidPoint(A,B) \tkzGetPoint{L}
+      \tkzDefMidPoint(A,C) \tkzGetPoint{M}
+      \tkzDefMidPoint(B,C) \tkzGetPoint{N}
+
+      \tkzDrawSegments(L,M M,N)
+
+      \tkzLabelPoint[above](A){A}
+      \tkzLabelPoints[left](B, L)
+      \tkzLabelPoint[right](C, M)
+      \tkzLabelPoint[below](N){N}
+    \end{tikzpicture}
+  \end{figure}
+\end{enumerate}
