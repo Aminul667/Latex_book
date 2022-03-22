@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.28)  21 MAR 2022 22:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.28)  22 MAR 2022 23:28
 entering extended mode
 **c:/Users/Rahat/Desktop/work/Latex_book/mainbook.tex
 (c:/Users/Rahat/Desktop/work/Latex_book/mainbook.tex
@@ -811,22 +811,25 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
  (C:\Users\Rahat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)) [1
+)
+Underfull \vbox (badness 4048) has occurred while \output is active []
+
+ [1
 
 
-{C:/Users/Rahat/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (mainbook.aux) ) 
+{C:/Users/Rahat/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2] [3] [4]) [5] (mainbook.aux) ) 
 Here is how much of TeX's memory you used:
- 35537 strings out of 478681
- 917050 string characters out of 2846534
- 1439254 words of memory out of 3000000
- 52925 multiletter control sequences out of 15000+600000
+ 35604 strings out of 478681
+ 918440 string characters out of 2846534
+ 1455254 words of memory out of 3000000
+ 52992 multiletter control sequences out of 15000+600000
  430982 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,111p,765b,2289s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb>
-Output written on mainbook.pdf (1 page, 121173 bytes).
+ 99i,13n,111p,765b,2348s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
+Output written on mainbook.pdf (5 pages, 196548 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

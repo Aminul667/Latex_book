@@ -1152,6 +1152,8 @@ INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\Rahat\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT mainbook.aux
 INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
@@ -1159,5 +1161,13 @@ INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.
 INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
+INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
+INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
+INPUT C:\Users\Rahat\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
