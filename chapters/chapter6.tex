@@ -1,0 +1,54 @@
+
+\chapter{GCSE Revision - Loci and Constructions}
+
+\begin{enumerate}
+  \item Draw the locus of all points which are equidistant from the lines $AB$ and $AC$.\mrk{2}
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{0/0/A,0/4/B,5/0/C}
+      \tkzDrawSegments(A,B A,C)
+      \tkzLabelPoints[above,left](B)
+      \tkzLabelPoints[below,left](A)
+      \tkzLabelPoints[below,right](C)
+    \end{tikzpicture}
+  \end{figure}
+  \item Use ruler and compasses to \textbf{construct} the perpendicular bisector of the line $AB$. You must show all your construction line.\mrk{2}\strch
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{0/0/A,6/0/B}
+      \tkzDrawSegments(A,B)
+      \tkzLabelPoints[below,left](A)
+      \tkzLabelPoints[below,right](B)
+    \end{tikzpicture}
+  \end{figure}
+  \newpage
+  \item Use ruler and compasses to \textbf{construct} an angle of $\ang{30}$ at $P$. You must show all your construction lines.\mrk{3}\strch
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{0/0/P,6/0/B}
+      \tkzDrawSegments(P,B)
+      \tkzLabelPoints[below,left](P)
+    \end{tikzpicture}
+  \end{figure}
+  \item Here is a map.\\
+  The map shows two towns, Burford and Hightown
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{0/0/A,10/0/B, 3/7.5/m1, 8/2.5/m2}
+      \tkzDefSquare(A,B)\tkzGetPoints{C}{D}
+      \tkzDrawPolygon(A,B,C,D)
+      \tkzDrawPoints[shape=cross out, size=8pt](m1,m2)
+      \tkzLabelPoint[above=3pt](m1){Burford}
+      \tkzLabelPoint[below=3pt](m2){Hightown}
+    \end{tikzpicture}
+  \end{figure}
+  Scale: 1 cm represents 10 km.\par 
+  A company is going to build a warehouse. The warehouse will be less than $30$ km from Burford and less than $50$ km from Hightown. Shade the region on the map where the company can build the warehouse.\mrk{3}
+  \newpage
+  \item hello
+  
+\end{enumerate}

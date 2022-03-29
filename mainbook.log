@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.28)  23 MAR 2022 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.28)  29 MAR 2022 21:54
 entering extended mode
 **c:/Users/Rahat/Desktop/work/Latex_book/mainbook.tex
 (c:/Users/Rahat/Desktop/work/Latex_book/mainbook.tex
@@ -780,56 +780,53 @@ LaTeX hooks Warning: Generic hook
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 53.
- (chapters/chapter5.tex
+ (chapters/chapter6.tex
 Chapter 1.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 31.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5.
 (C:\Users\Rahat\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 31.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5.
  (C:\Users\Rahat\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 31.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 5.
  (C:\Users\Rahat\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 31.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 5.
  (C:\Users\Rahat\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 31.
+(Font)              <10.95> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 31.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 31.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+(Font)              <6> on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
  (C:\Users\Rahat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
  (C:\Users\Rahat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \vbox (badness 4048) has occurred while \output is active []
-
- [1
+) [1
 
 
-{C:/Users/Rahat/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6] [7]) [8] (mainbook.aux) ) 
+{C:/Users/Rahat/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]) [3] (mainbook.aux) ) 
 Here is how much of TeX's memory you used:
- 35688 strings out of 478681
- 920072 string characters out of 2846534
- 1500967 words of memory out of 3000000
- 53076 multiletter control sequences out of 15000+600000
+ 35156 strings out of 478681
+ 905633 string characters out of 2846534
+ 1255180 words of memory out of 3000000
+ 52544 multiletter control sequences out of 15000+600000
  430982 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,111p,765b,2378s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on mainbook.pdf (8 pages, 243912 bytes).
+ 99i,9n,111p,765b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Rahat/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
+Output written on mainbook.pdf (3 pages, 101245 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
