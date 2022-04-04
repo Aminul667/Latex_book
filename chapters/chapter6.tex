@@ -49,6 +49,25 @@
   Scale: 1 cm represents 10 km.\par 
   A company is going to build a warehouse. The warehouse will be less than $30$ km from Burford and less than $50$ km from Hightown. Shade the region on the map where the company can build the warehouse.\mrk{3}
   \newpage
-  \item hello
-  
+  \item Here is a scale drawing of a rectangular garden $ABCD$.\mrk{4}
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=1.2]
+      \tkzDefPoints{0/0/A,10/0/B, 10/-7/C}
+
+      \tkzDefParallelogram(A,B,C)
+      \tkzGetPoint{D}
+
+      \tkzDrawPolygon(A,B,C,D)
+
+
+      \tkzLabelPoints[above,left](A)
+      \tkzLabelPoints[above,right](B)
+      \tkzLabelPoints[below,right](C)
+      \tkzLabelPoints[below,left](D)
+    \end{tikzpicture}
+  \end{figure}
+  Scale: 1 cm represents 1 metre.\par 
+  Jane wants to plant a tree in the garden at least 5m from point $C$, nearer to $AB$ than to $AD$, and less than 3m from $DC$.\\
+  On the diagram, shade the region where Jane can plant the tree.
 \end{enumerate}
