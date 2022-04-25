@@ -1,0 +1,157 @@
+
+\chapter{GCSE Revision - Probability}
+
+\begin{enumerate}
+  \item In a supermarket, the probability that John buys fruit is 0.7. In the same supermarket, the probability that John independently buys vegetables is 0.4.\par 
+  Work out the probability that John buys fruit or buys vegetables or buys both.\mrk{4}\\[3cm]\vspace*{0pt}\hfill\dline
+  \item There are three different types of sandwiches on a shelf. There are 4 egg sandwiches, 5 cheese sandwiches and 2 ham sandwiches. Erin takes at random 2 of these sandwiches.\par 
+  Work out the probability that she takes 2 different types of sandwiches.
+  \newpage
+  \item Fiza has 10 coins in a bag. There are three $\pounds 1$ coins and seven 50 pence coins. Fiza takes at random, 3 coins from the bag.\par
+  Work out the probability that she takes exactly $\pounds 2.50$.
+  \item Here are seven tiles.
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=0.6]
+      \tkzDefPoints{0/0/a1, 2/0/b1, 3/0/a2, 5/0/b2, 6/0/a3, 8/0/b3, 9/0/a4, 11/0/b4}
+      \tkzDefPoints{12/0/a5, 14/0/b5, 15/0/a6, 17/0/b6, 18/0/a7, 20/0/b7}
+
+      \tkzDefSquare(a1,b1) \tkzGetPoints{c1}{d1}
+      \tkzDrawPolygon(a1,b1,c1,d1)
+
+      \tkzDefSquare(a2,b2) \tkzGetPoints{c2}{d2}
+      \tkzDrawPolygon(a2,b2,c2,d2)
+
+      \tkzDefSquare(a3,b3) \tkzGetPoints{c3}{d3}
+      \tkzDrawPolygon(a3,b3,c3,d3)
+
+      \tkzDefSquare(a4,b4) \tkzGetPoints{c4}{d4}
+      \tkzDrawPolygon(a4,b4,c4,d4)
+
+      \tkzDefSquare(a5,b5) \tkzGetPoints{c5}{d5}
+      \tkzDrawPolygon(a5,b5,c5,d5)
+
+      \tkzDefSquare(a6,b6) \tkzGetPoints{c6}{d6}
+      \tkzDrawPolygon(a6,b6,c6,d6)
+
+      \tkzDefSquare(a7,b7) \tkzGetPoints{c7}{d7}
+      \tkzDrawPolygon(a7,b7,c7,d7)
+
+      \tkzDefMidPoint(a1,c1)
+      \tkzGetPoint{l1}
+      \tkzLabelPoint[above=-6pt](l1){1}
+
+      \tkzDefMidPoint(a2,c2)
+      \tkzGetPoint{l2}
+      \tkzLabelPoint[above=-6pt](l2){1}
+
+      \tkzDefMidPoint(a3,c3)
+      \tkzGetPoint{l3}
+      \tkzLabelPoint[above=-6pt](l3){2}
+
+      \tkzDefMidPoint(a4,c4)
+      \tkzGetPoint{l4}
+      \tkzLabelPoint[above=-6pt](l4){2}
+
+      \tkzDefMidPoint(a5,c5)
+      \tkzGetPoint{l5}
+      \tkzLabelPoint[above=-6pt](l5){2}
+
+      \tkzDefMidPoint(a6,c6)
+      \tkzGetPoint{l6}
+      \tkzLabelPoint[above=-6pt](l6){3}
+
+      \tkzDefMidPoint(a7,c7)
+      \tkzGetPoint{l7}
+      \tkzLabelPoint[above=-6pt](l7){3}
+    \end{tikzpicture}
+  \end{figure}
+  Jim takes at random a tile.\\
+  He does \textbf{not} replace the tile.\par 
+  Jim then takes at random a second tile.
+  \begin{enumerate}
+    \item Calculate the probability that both the tiles Jim takes have the number $1$ on them.\mrk{2}\\[4cm]\vspace*{0pt}\hfill\dline
+    \item Calculate the probability that the number on the second tile Jim takes is greater than the number on the first tile he takes.
+  \end{enumerate}
+  \newpage
+  \item Carolyn has $20$ biscuits in a tin. She has\par 
+  \hspace*{2cm}12 plain biscuits\\
+	\hspace*{2cm}5 chocolate biscuits\\
+	\hspace*{2cm}3 ginger biscuits\par
+  Carolyn takes at random two biscuits from the tin. Work out the probability that the two biscuits were not the same type.\\[3cm]\mbox{}
+  \item Jan has two boxes.\par
+  There are 6 black and 4 white counters in box A.\\
+  There are 7 black and 3 white counters in box B.\par
+  Jan takes at random a counter from box A and puts it in box B.\\
+  She then takes at random a counter from box B and puts it in box A.
+  \begin{enumerate}
+    \item Complete the probability tree diagram.\mrk{2}
+    \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[line cap=round,line join=round,x=0.6cm,y=0.5cm]
+        \coordinate (O) at (2,-1);
+        \begin{scope}
+         \node (A) at (9,2) {Black};
+         \node (B) at (9,-4) {White};
+         \node (C) at (16,4) {Black};
+         \node (D) at (16,0) {White};
+         \node (E) at (16,-2) {Black};
+         \node (F) at (16,-6) {White}; 
+        \end{scope}
+        
+        \draw (O) -- (A) -- (C)
+                     (A) -- (D)
+              (O) -- (B) -- (E)
+                     (B) -- (F);
+        \end{tikzpicture}
+    \end{figure}
+    \item Find the probability that after Jan has put the counter from box B into box A there will still be 6 black counters and 4 white counters in box A.\mrk{2}\strch\\\vspace*{0pt}\hfill\dline
+  \end{enumerate}
+  \item There are 5 red pens, 3 blue pens and 2 green pens in a box.\par
+  Gary takes at random a pen from the box and gives the pen to his friend.\\
+  Gary then takes at random another pen from the box.\par
+  Work out the probability that both pens are the same color.\\[3cm]\mbox{}
+  \item \mbox{}
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{-1/2/A, 1/2/B, 0/0/C, -1.5/3/L1, 1.5/3/L2}
+      \tkzDrawArc[black](C,A)(B)
+      \tkzDrawSegments(A,L1 B,L2 L1,L2)
+
+      \tkzDefShiftPoint[C](0:1.5){w1}
+      \tkzDefShiftPoint[C](45:1.5){b1}
+      \tkzDefShiftPoint[C](90:1.5){w2}
+      \tkzDefShiftPoint[C](135:1.5){b2}
+      \tkzDefShiftPoint[C](180:1.5){w3}
+      \tkzDefShiftPoint[C](225:1.5){w4}
+      \tkzDefShiftPoint[C](270:1.5){b3}
+      \tkzDefShiftPoint[C](315:1.5){b4}
+
+      \tkzDefShiftPoint[C](120:0.5){w5}
+      \tkzDefShiftPoint[C](249:0.5){w6}
+      \tkzDefShiftPoint[C](360:0.5){w7}
+
+      \tkzDrawPoints[size=20, shape=circle, fill=none](w1,w2,w3,w4,b1,b2,b3,b4,w5,w6,w7)
+
+      \tkzLabelPoint[above=-6.5pt](w1){W}
+      \tkzLabelPoint[above=-6.5pt](w2){W}
+      \tkzLabelPoint[above=-6.5pt](w3){W}
+      \tkzLabelPoint[above=-6.5pt](w4){W}
+      \tkzLabelPoint[above=-6.5pt](w5){W}
+      \tkzLabelPoint[above=-6.5pt](w6){W}
+      \tkzLabelPoint[above=-6.5pt](w7){W}
+
+      \tkzLabelPoint[above=-6.5pt](b1){B}
+      \tkzLabelPoint[above=-6.5pt](b2){B}
+      \tkzLabelPoint[above=-6.5pt](b3){B}
+      \tkzLabelPoint[above=-6.5pt](b4){B}
+    \end{tikzpicture}
+  \end{figure}
+  There are 11 buttons in a bag.\par
+  \hspace*{2cm}7 buttons are white.\\
+	\hspace*{2cm}4 buttons are black.\par
+  Harley takes a button at random from the bag, and keeps it.\\
+  She now takes another button at random from the bag.\par
+  Work out the probability that Harley takes a button of each color.
+\end{enumerate}
