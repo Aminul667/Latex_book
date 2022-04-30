@@ -1,0 +1,226 @@
+
+\chapter{GCSE Questions - Right-Angled Triangles}
+
+\begin{enumerate}
+  \item $ABC$ is an isosceles triangle.
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=0.8]
+      \tkzDefPoints{0/0/B, 5/0/C, 2.5/6/A, 9/5/L}
+  
+      \tkzDrawPolygon(A,B,C)
+      \tkzLabelPoints(C)
+      \tkzLabelPoints[above](A)
+      \tkzLabelPoints[below left](B)
+
+      \tkzMarkAngles[size=1.2, mark=none](C,B,A A,C,B)
+      \tkzLabelAngle[pos=0.8](C,B,A){$54^\circ$}
+      \tkzLabelAngle[pos=0.8](A,C,B){$54^\circ$}
+
+      \tkzLabelSegment[below](B,C){12 cm}
+
+      \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+      \tkzLabelPoint[below](L){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  Work out the area of the triangle. Give your answer correct to 3 significant figures.\mrk{4}\strch\\\mbox{}\vspace*{0pt}\hfill\dline cm$^2$
+  \newpage
+
+  \item Here is a right-angled triangle.
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{0/0/B, 6/0/C, 0/3.5/A, 8/3/L}
+  
+      \tkzDrawPolygon(A,B,C)
+      \tkzLabelPoints(C)
+      \tkzLabelPoints[above](A)
+      \tkzLabelPoints[below](B)
+
+      \tkzLabelSegment[below](B,C){70 cm}
+      \tkzLabelSegment[left](A,B){39 cm}
+
+      \tkzMarkRightAngles(C,B,A)
+
+      \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+      \tkzLabelPoint[below](L){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  Work out the length of $AC$. Give your answer correct to 1 decimal place.\mrk{3}\\[3cm]\vspace*{0pt}\hfill\dline cm
+  \item \mbox{}
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{0/0/C, 6/0/B, 0/3.5/A, 8/3/L}
+  
+      \tkzDrawPolygon(A,B,C)
+      \tkzLabelPoints[below](C)
+      \tkzLabelPoints[above](A)
+      \tkzLabelPoints(B)
+
+      \tkzLabelSegment[left](A,C){6 cm}
+      \tkzLabelSegment[above right=2pt](A,B){13 cm}
+
+      \tkzMarkRightAngles(B,C,A)
+
+      \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+      \tkzLabelPoint[below](L){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  ABC is a right-angled triangle.\\
+  $AC = 6$ cm\\
+  $AB = 13$ cm
+  \begin{enumerate}
+    \item Work out the length of $BC$. Give your answer correct to 3 significant figures.\mrk{3}\\[3cm]\vspace*{0pt}\hfill\dline cm
+    \newpage
+    \item \mbox{}
+    \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}
+        \tkzDefPoints{0/0/R, 6/0/Q, 0/3.5/P, 8/3/L}
+    
+        \tkzDrawPolygon(P,Q,R)
+        \tkzLabelPoints[below](R)
+        \tkzLabelPoints[above](P)
+        \tkzLabelPoints(Q)
+  
+        \tkzLabelSegment[left](P,R){17 cm}
+        \tkzLabelSegment[above right=2pt](P,Q){25 cm}
+  
+        \tkzMarkRightAngles(Q,R,P)
+  
+        \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+        \tkzLabelPoint[below](L){accurately drawn}
+      \end{tikzpicture}
+    \end{figure}
+    PQR is a right-angled triangle.\\
+    $R = 17$ cm\\
+    $PQ = 25$ cm\\
+    Work out the size of angle RPQ. Give your answer correct to 1 decimal place.\mrk{3}\\[3cm]\vspace*{0pt}\hfill\dline $^\circ$
+  \end{enumerate}
+  \item The diagram shows a ladder leaning against a vertical wall.
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{0/0/A, 3/0/B, -2.5/-0.5/D3, 3/5/C, 4.5/-0.5/D4, -2.5/0/D1, 4.5/0/D2, 3/6/H, 6/3/L}
+      \tkzDrawPolygon(A,B,C)
+      \tkzDrawPolygon[color=white, fill=gray!15](D1,D2,D4,D3)
+      \tkzDrawSegments(D1,D2 C,H)
+
+
+      \tkzMarkRightAngles(C,B,A)
+      \tkzMarkAngles[size=1.2, mark=none](B,A,C)
+      \tkzLabelAngle[pos=0.8](B,A,C){$y$}
+
+      \tkzDrawSegment[dim={2.25 m,-16pt,}](A,B)
+      \tkzDrawSegment[dim={6 m,16pt,}](A,C)
+
+      \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+      \tkzLabelPoint[below](L){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  The ladder stands on horizontal ground. The length of the ladder is 6 m. The bottom of the ladder is 2.25 m from the bottom of the wall. A ladder is safe to use when the angle marked y is about $\ang{75}$.\par
+  Is the ladder safe to use? You must show all your working.\mrk{4}\\[3cm]\mbox{}
+  \item $XYZ$ is a right-angled triangle.
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{0/0/Y, 6/0/Z, 0/3/X, 8/3/L}
+  
+      \tkzDrawPolygon(X,Y,Z)
+      \tkzLabelPoints[below](Y)
+      \tkzLabelPoints[above](X)
+      \tkzLabelPoints(Z)
+
+      \tkzLabelSegment[left](X,Y){1.35 m}
+      \tkzLabelSegment[below](Y,Z){3.25 m}
+
+      \tkzMarkRightAngles(Z,Y,X)
+
+      \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+      \tkzLabelPoint[below](L){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  Calculate the length of $XZ$. Give your answer correct to 3 significant figures.\mrk{3}\\[3cm]\vspace*{0pt}\hfill\dline m
+  \item \mbox{}
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{0/0/A, 3.5/0/B, 3.5/5/C, 7/4/L}
+  
+      \tkzDrawPolygon(A,B,C)
+
+      \tkzLabelSegment[above left](A,C){32 cm}
+      \tkzLabelSegment[right](B,C){x cm}
+
+      \tkzMarkAngles[size=1.2, mark=none](B,A,C)
+      \tkzLabelAngle[pos=0.8](B,A,C){$\ang{60}$}
+      \tkzMarkRightAngles(C,B,A)
+
+      \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+      \tkzLabelPoint[below](L){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  Calculate the value of $x$. Give your answer correct to 3 significant figures.\mrk{3}\\[3cm]\vspace*{0pt}\hfill\dline
+  \newpage
+
+  \item $ABCD$ is a trapezium
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{0/0/B, 5.5/0/C, 5.5/3/D, 0/4.5/A, 8.5/4/L}
+  
+      \tkzDrawPolygon(A,B,C,D)
+
+      \tkzLabelPoints[above](A,D)
+      \tkzLabelPoints[below](B,C)
+
+      \tkzLabelSegment[left](A,B){9 cm}
+      \tkzLabelSegment[above right](A,D){10 cm}
+      \tkzLabelSegment[right](C,D){3 cm}
+
+      \tkzMarkRightAngles(C,B,A)
+      \tkzMarkRightAngles(B,C,D)
+
+      \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+      \tkzLabelPoint[below](L){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  $AD = 10$ cm\\
+  $AB = 9$ cm\\
+  $DC = 3$ cm\\
+  Angle $ABC = \text{angle}\ BCD = \ang{90}$
+  Calculate the length of $AC$. Give your answer correct to 3 significant figures.\mrk{5}\\[3.5cm]\vspace*{0pt}\hfill\dline cm
+  \item $PQR$ is a right-angled triangle.
+  \begin{enumerate}
+    \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}
+        \tkzDefPoints{0/0/Q, 5.5/0/R, 5.5/2.5/P, 8/2/L}
+    
+        \tkzDrawPolygon(Q,R,P)
+  
+        \tkzLabelSegment[below](Q,R){12 cm}
+        \tkzLabelSegment[right](R,P){8 cm}
+  
+        \tkzMarkAngles[size=1.2, mark=none](R,Q,P)
+        \tkzLabelAngle[pos=0.8](R,Q,P){$x$}
+        \tkzMarkRightAngles(P,R,Q)
+  
+        \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+        \tkzLabelPoint[below](L){accurately drawn}
+      \end{tikzpicture}
+    \end{figure}
+    \item[]\mbox{}
+      $PR = 8$ cm.\\
+      $QR = 12$ cm
+      \newpage
+    \item Find the size of the angle marked $x$. Give your answer correct to 1 decimal place.\mrk{3}\\[3.5cm]\vspace*{0pt}\hfill\dline $^\circ$
+  \end{enumerate}
+  
+
+
+
+
+
+\end{enumerate}
