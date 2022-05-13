@@ -191,12 +191,13 @@
   $DC = 3$ cm\\
   Angle $ABC = \text{angle}\ BCD = \ang{90}$
   Calculate the length of $AC$. Give your answer correct to 3 significant figures.\mrk{5}\\[3.5cm]\vspace*{0pt}\hfill\dline cm
-  \item $PQR$ is a right-angled triangle.
+  \item 
   \begin{enumerate}
+    \item $PQR$ is a right-angled triangle.
     \begin{figure}[H]
       \centering
       \begin{tikzpicture}
-        \tkzDefPoints{0/0/Q, 5.5/0/R, 5.5/2.5/P, 8/2/L}
+        \tkzDefPoints{0/0/Q, 5.5/0/R, 5.5/2.5/P, 8.5/2/L}
     
         \tkzDrawPolygon(Q,R,P)
   
@@ -206,19 +207,153 @@
         \tkzMarkAngles[size=1.2, mark=none](R,Q,P)
         \tkzLabelAngle[pos=0.8](R,Q,P){$x$}
         \tkzMarkRightAngles(P,R,Q)
+
+        \tkzLabelPoints[below left](Q)
+        \tkzLabelPoints[below](R)
+        \tkzLabelPoints[above right](P)
   
         \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
         \tkzLabelPoint[below](L){accurately drawn}
       \end{tikzpicture}
     \end{figure}
-    \item[]\mbox{}
-      $PR = 8$ cm.\\
-      $QR = 12$ cm
-      \newpage
-    \item Find the size of the angle marked $x$. Give your answer correct to 1 decimal place.\mrk{3}\\[3.5cm]\vspace*{0pt}\hfill\dline $^\circ$
-  \end{enumerate}
-  
+    $PR = 8$ cm.\\
+    $QR = 12$ cm
+    Find the size of the angle marked $x$. Give your answer correct to 1 decimal place.\mrk{3}\\\vspace*{0pt}\hfill\dline $^\circ$
+    \newpage
+    \item $XYZ$ is a different right-angled triangle.
+    \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}
+        \tkzDefPoints{0/0/Y, 5.5/0/Z, 0/3/A, 8.5/2/L}
 
+        \tkzDefLine[perpendicular=through Y](A,Z)
+        \tkzGetPoint{B}
+        \tkzInterLL(A,Z)(Y,B)
+        \tkzGetPoint{X}
+
+        \tkzDrawPolygon(X,Y,Z)
+
+        \tkzLabelSegment[above left](X,Y){5 cm}
+        \tkzMarkAngles[size=1.6, mark=none](X,Z,Y)
+        \tkzLabelAngle[pos=1.2](X,Z,Y){$\ang{30}$}
+        \tkzMarkRightAngles[size=0.4](Y,X,Z)
+
+        \tkzLabelPoints[below left](Y)
+        \tkzLabelPoints[below right](Z)
+        \tkzLabelPoints[above left](X)
+  
+        \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+        \tkzLabelPoint[below](L){accurately drawn}
+      \end{tikzpicture}
+    \end{figure}
+    $XY = 5$ cm. Angle $Z = \ang{32}$.\\
+    Calculate the length $YZ$. Give your answer correct to 3 significant figures.\mrk{3}\\[3.5cm]\vspace*{0pt}\hfill\dline cm
+  \end{enumerate}
+  \item \mbox{}
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=1.2]
+      \tkzDefPoints{0/0/Q, 5.5/0/R, 5.5/2.5/P, 8.5/2/L}
+  
+      \tkzDrawPolygon(Q,R,P)
+
+      \tkzLabelSegment[above left](P,Q){16 cm}
+      \tkzLabelSegment[right](P,R){8 cm}
+
+      \tkzMarkRightAngles[size=0.2](P,R,Q)
+
+      \tkzLabelPoints[below left](Q)
+      \tkzLabelPoints[below](R)
+      \tkzLabelPoints[above right](P)
+
+      \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+      \tkzLabelPoint[below](L){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  $PQR$ is a right-angled triangle.\\
+  $PQ = 16$ cm. $PR = 8$ cm.\par
+  Calculate the length of $QR$. Give your answer correct to 2 decimal places.\mrk{3}\\[3.5cm]\vspace*{0pt}\hfill\dline cm
+  \newpage
+  \item The diagram shows a quadrilateral $ABCD$.
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=1.2]
+      \tkzDefPoints{0/0/A, 3/0/D, 7/2/C, 3/2/B, 9.5/2/L}
+  
+      \tkzDrawPolygon(A,B,C,D)
+      \tkzDrawSegment[dashed](B,D)
+
+      \tkzLabelSegment[below](A,D){12 cm}
+      \tkzLabelSegment[above left](A,B){16 cm}
+
+      \tkzMarkRightAngles[size=0.3](D,B,C)
+      \tkzMarkRightAngles[size=0.3](B,D,A)
+
+      \tkzMarkAngles[size=1.4, mark=none](B,C,D)
+      \tkzLabelAngle[pos=1](B,C,D){$\ang{40}$}
+
+      \tkzLabelPoints[left](A)
+      \tkzLabelPoints[above](B)
+      \tkzLabelPoints[right](C)
+      \tkzLabelPoints[below](D)
+
+      \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+      \tkzLabelPoint[below](L){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  $AB = 16$ cm. $AD = 12$ cm. Angle $BCD = \ang{40}$. Angle $ADB = $angle $CBD = \ang{90}$.\par
+Calculate the length of $CD$. Give your answer correct to 3 significant figures.\mrk{5}\\[4cm]\vspace*{0pt}\hfill\dline cm
+\item \mbox{}
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[scale=1.2]
+    \tkzDefPoints{0/0/n, 4/0/l, 4/-3/m, 7.5/-0.5/L}
+
+    \tkzDrawPolygon(n,l,m)
+
+    \tkzLabelSegment[below left](n,m){9.6 cm}
+    \tkzLabelSegment[right](l,m){6.4 cm}
+
+    \tkzMarkRightAngles[size=0.3](n,l,m)
+
+    \tkzMarkAngles[size=1.2, mark=none](l,m,n)
+    \tkzLabelAngle[pos=0.8](l,m,n){\large $x^\circ$}
+
+    \tkzLabelPoint[left](n){N}
+    \tkzLabelPoint[right](l){L}
+    \tkzLabelPoint[below right](m){M}
+
+    \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+    \tkzLabelPoint[below](L){accurately drawn}
+  \end{tikzpicture}
+\end{figure}
+$LMN$ is a right-angled triangle. $MN = 9.6$ cm. $LM = 6.4$ cm.\par 
+Calculate the size of the angle marked $x^\circ$. Give your answer correct to 1 decimal place.\mrk{3}\\[3.5cm]\vspace*{0pt}\hfill\dline cm
+\newpage
+\item The diagrams show a right-angled triangle and a rectangle
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[scale=1.2]
+    \tkzDefPoints{0/0/n, 4/0/l, 4/-3/m, 7.5/-0.5/L}
+
+    \tkzDrawPolygon(n,l,m)
+
+    \tkzLabelSegment[below left](n,m){9.6 cm}
+    \tkzLabelSegment[right](l,m){6.4 cm}
+
+    \tkzMarkRightAngles[size=0.3](n,l,m)
+
+    \tkzMarkAngles[size=1.2, mark=none](l,m,n)
+    \tkzLabelAngle[pos=0.8](l,m,n){\large $x^\circ$}
+
+    \tkzLabelPoint[left](n){N}
+    \tkzLabelPoint[right](l){L}
+    \tkzLabelPoint[below right](m){M}
+
+    \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+    \tkzLabelPoint[below](L){accurately drawn}
+  \end{tikzpicture}
+\end{figure}
 
 
 
