@@ -333,27 +333,142 @@ Calculate the size of the angle marked $x^\circ$. Give your answer correct to 1 
 \item The diagrams show a right-angled triangle and a rectangle
 \begin{figure}[H]
   \centering
-  \begin{tikzpicture}[scale=1.2]
-    \tkzDefPoints{0/0/n, 4/0/l, 4/-3/m, 7.5/-0.5/L}
+  \begin{tikzpicture}[scale=0.8]
+    \tkzDefPoints{0/0/A, 0/-5/B, 3/-5/C, 5/-5/P, 10/-5/Q, 10/-2/R, 5/-2/S, 12/-1/L}
 
-    \tkzDrawPolygon(n,l,m)
+    \tkzDrawPolygon(A,B,C)
+    \tkzDrawPolygon(P,Q,R,S)
 
-    \tkzLabelSegment[below left](n,m){9.6 cm}
-    \tkzLabelSegment[right](l,m){6.4 cm}
+    \tkzLabelSegment[left](A,B){15 cm}
+    \tkzLabelSegment[below](B,C){8 cm}
+    \tkzLabelSegment[above right](A,C){17 cm}
+    \tkzLabelSegment[below](P,Q){12 cm}
+    \tkzLabelSegment[above](S,R){12 cm}
+    \tkzLabelSegment[left](P,S){x cm}
+    \tkzLabelSegment[right](Q,R){x cm}
 
-    \tkzMarkRightAngles[size=0.3](n,l,m)
-
-    \tkzMarkAngles[size=1.2, mark=none](l,m,n)
-    \tkzLabelAngle[pos=0.8](l,m,n){\large $x^\circ$}
-
-    \tkzLabelPoint[left](n){N}
-    \tkzLabelPoint[right](l){L}
-    \tkzLabelPoint[below right](m){M}
+    \tkzMarkRightAngles[size=0.4](A,B,C)
 
     \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
     \tkzLabelPoint[below](L){accurately drawn}
   \end{tikzpicture}
 \end{figure}
+The area of the right-angled triangle is equal to the area of the rectangle. Find the value of $x$.\mrk{4}\\[3.5cm]\vspace*{0pt}\hfill x=\dline
+\item \mbox{}
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[scale=1.2]
+    \tkzDefPoints{0/0/A, 5.5/0/B, 5.5/2.5/C, 8.5/2/L}
+
+    \tkzDrawPolygon(A,B,C)
+
+    \tkzLabelSegment[above left](A,C){8 cm}
+    \tkzMarkRightAngles[size=0.4](A,B,C)
+    \tkzMarkAngles[size=1.4, mark=none](B,A,C)
+    \tkzLabelAngle[pos=1](B,A,C){\large $37^\circ$}
+
+    \tkzLabelPoints[left](A)
+    \tkzLabelPoints[right](B)
+    \tkzLabelPoints[above](C)
+
+    \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+    \tkzLabelPoint[below](L){accurately drawn}
+  \end{tikzpicture}
+\end{figure}
+$ABC$ is a right-angled triangle.\\
+$AC = 8$ m.\\
+Angle $CAB = \ang{37}$.\par 
+Calculate the length of $AB$. Give your answer correct to 3 significant figures.\mrk{3}\\[3.5cm]\vspace*{0pt}\hfill\dline m.
+\newpage
+\item The diagram shows triangle $LMN$.
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[scale=1.4]
+    \tkzDefPoints{0/0/N, 5/1/M, -2/1.5/L, 6.5/1.5/P}
+
+    \tkzDrawPolygon(N,M,L)
+
+    \tkzLabelSegment[below right](N,M){12.8 cm}
+    \tkzLabelSegment[above](L,M){15.7 cm}
+    \tkzMarkAngles[size=0.7, mark=none](M,N,L)
+    \tkzLabelAngle[pos=0.4](M,N,L){\large $136^\circ$}
+
+    \tkzLabelPoints[below](N)
+    \tkzLabelPoints[left](L)
+    \tkzLabelPoints[right](M)
+
+    \tkzLabelPoint[above](P){Diagram \textbf{NOT}}
+    \tkzLabelPoint[below](P){accurately drawn}
+  \end{tikzpicture}
+\end{figure}
+Calculate the length of $LN$. Give your answer correct to 3 significant figures.\mrk{5}\\[3.5cm]\vspace*{0pt}\hfill\dline cm.
+\item Here are two triangles \textbf{T1} and \textbf{T2}
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[scale = 1.3]
+    \tkzDefPoints{0/0/a1, 3.5/0/b1, 4.5/0/a2, 6.5/0/b2, 8.5/2.5/L}
+    \tkzDefShiftPoint[a1](40:3){c1}
+    \tkzDefShiftPoint[b2](90:3){c2}
+
+    \tkzDrawPolygon(a1,b1,c1)
+    \tkzDrawPolygon(a2,b2,c2)
+
+    \tkzDefTriangleCenter[centroid](a1,b1,c1)
+    \tkzGetPoint{t1}
+
+    \tkzDefTriangleCenter[centroid](a2,b2,c2)
+    \tkzGetPoint{t2}
+
+    \tkzLabelPoint[above=1.5pt](t1){\textbf{T1}}
+    \tkzLabelPoint[above=1pt](t2){\textbf{T2}}
+
+    \tkzLabelSegment[above](a1,c1){$x$}
+    \tkzLabelSegment[below](a1,b1){$x$}
+    \tkzLabelSegment[below](a2,b2){$x-1$}
+    \tkzLabelSegment[right](b2,c2){$x+1$}
+
+    \tkzMarkAngles[size=1, mark=none](b1,a1,c1)
+    \tkzLabelAngle[pos=0.7](b1,a1,c1){$30^\circ$}
+    \tkzMarkRightAngles[size=0.2](a2,b2,c2)
+
+    \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+    \tkzLabelPoint[below](L){accurately drawn}
+  \end{tikzpicture}
+\end{figure}
+The lengths of the sides are in centimetres. The area of triangle \textbf{T1} is equal to the area of triangle \textbf{T2}. Work out the value of $x$, giving your answer in the form $a + \sqrt{x}$ where $a$ and $b$ are integers.\mrk{5}
+\newpage
+\item \mbox{}
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}
+    \tkzDefPoints{0/0/P, 8/0/R, 10/2.5/L}
+    \tkzDefMidPoint(P,R)
+    \tkzGetPoint{m}
+
+    \tkzDefShiftPoint[m](90:2){Q}
+
+    \tkzDrawPolygon(P,Q,R)
+
+    \tkzLabelPoints[left](P)
+    \tkzLabelPoints[right](R)
+    \tkzLabelPoints[above](Q)
+    
+    \tkzLabelSegment[above right](Q,R){8 cm}
+    \tkzMarkSegments[mark=|](Q,R Q,P)
+
+    \tkzMarkAngles[size=0.8, mark=none](P,Q,R)
+    \tkzLabelAngle[pos=0.4](P,Q,R){$140^\circ$}
+
+    \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+    \tkzLabelPoint[below](L){accurately drawn}
+  \end{tikzpicture}
+\end{figure}
+Calculate the length of $PR$. Give your answer correct to 3 significant figures.\mrk{3}\\[3.5cm]\vspace*{0pt}\hfill\dline cm.
+
+
+
+
+
 
 
 
