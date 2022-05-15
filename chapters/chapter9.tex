@@ -464,12 +464,146 @@ The lengths of the sides are in centimetres. The area of triangle \textbf{T1} is
   \end{tikzpicture}
 \end{figure}
 Calculate the length of $PR$. Give your answer correct to 3 significant figures.\mrk{3}\\[3.5cm]\vspace*{0pt}\hfill\dline cm.
+\item $ABC$ is a triangle
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[scale=1.2]
+    \tkzDefPoints{0/0/A, 5/0/B, 1.5/-2.5/C, 8/-0.5/L}
+    \tkzDrawPolygon(A,B,C)
 
+    \tkzLabelSegment[below left](A,C){6 cm}
+    \tkzLabelSegment[below right](B,C){7 cm}
 
+    \tkzLabelPoints[left](A)
+    \tkzLabelPoints[right](B)
+    \tkzLabelPoints[below](C)
 
+    \tkzMarkAngles[size=0.9, mark=none](B,C,A)
+    \tkzLabelAngle[pos=0.5](B,C,A){$60^\circ$}
 
+    \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+    \tkzLabelPoint[below](L){accurately drawn}
+  \end{tikzpicture}
+\end{figure}
+\begin{enumerate}
+  \item Work out the area of triangle $ABC$. Give your answer correct to 3 significant figures.\mrk{2}\\[1.5cm]\vspace*{0pt}\hfill\dline cm$^2$.
+  \item Work out the length of the side $AB$. Give your answer correct to 3 significant figures.\mrk{2}\\[1.5cm]\vspace*{0pt}\hfill\dline cm.
+\end{enumerate}
+\newpage
+\item The diagram shows the triangle $PQR$.
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}
+    \tkzDefPoints{0/0/P, 4/0/Q, 7.5/2.5/L}
+    \tkzDefShiftPoint[P](35:6){R}
 
+    \tkzDrawPolygon(P,Q,R)
 
+    \tkzLabelSegment[above left](P,R){$2x$ cm}
+    \tkzLabelSegment[below](P,Q){$x$ cm}
+
+    \tkzMarkAngles[size=1.3, mark=none](Q,P,R)
+    \tkzLabelAngle[pos=0.9](Q,P,R){$30^\circ$}
+
+    \tkzLabelPoints[below left](P)
+    \tkzLabelPoints[below right](Q)
+    \tkzLabelPoints[above right](R)
+
+    \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+    \tkzLabelPoint[below](L){accurately drawn}
+  \end{tikzpicture}
+\end{figure}
+$PQ = x$ cm. $PR = 2x$ cm. Angle $QPR = \ang{30}$. The area of triangle $PQR = A$ cm$^2$.\\
+Show that $x =\sqrt{2A}$.\mrk{2}\\[3.5cm]\mbox{}
+\item Here is a triangle ABC.
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[scale=1]
+    \tkzDefPoints{0/0/A, 7.5/2.5/L}
+    \tkzDefShiftPoint[A](35:7){B}
+    \tkzDefShiftPoint[A](75:3){C}
+
+    \tkzDrawPolygon(A,B,C)
+
+    \tkzLabelSegment[above left](B,C){$60$ m}
+    \tkzLabelSegment[above left](C,A){$90$ m}
+
+    \tkzMarkAngles[size=0.9, mark=none](A,C,B)
+    \tkzLabelAngle[pos=0.5](A,C,B){$130^\circ$}
+
+    \tkzLabelPoints[below](A)
+    \tkzLabelPoints[right](B)
+    \tkzLabelPoints[above](C)
+
+    \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+    \tkzLabelPoint[below](L){accurately drawn}
+  \end{tikzpicture}
+\end{figure}
+$AC = 90$ m. $BC = 60$ m. Angle $ACB = \ang{130}$.\par 
+Calculate the perimeter of the triangle. Give your answer correct to one decimal place.\mrk{4}\\[3.5cm]\vspace*{0pt}\hfill\dline m.
+\item \mbox{}
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[scale=1]
+    \tkzDefPoints{0/0/C, 9/2.5/L}
+    \tkzDefShiftPoint[C](10:6.5){B}
+    \tkzDefShiftPoint[C](75:3.5){A}
+
+    \tkzDrawPolygon(A,B,C)
+
+    \tkzLabelSegment[above right](A,B){8.7 cm}
+
+    \tkzMarkAngles[size=1.2, mark=none](B,C,A)
+    \tkzLabelAngle[pos=0.7](B,C,A){$64^\circ$}
+    \tkzMarkAngles[size=1.5, mark=none](A,B,C)
+    \tkzLabelAngle[pos=0.9](A,B,C){$49^\circ$}
+
+    \tkzLabelPoints[below left](C)
+    \tkzLabelPoints[above left](A)
+    \tkzLabelPoints[right](B)
+
+    \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+    \tkzLabelPoint[below](L){accurately drawn}
+  \end{tikzpicture}
+\end{figure}
+$ABC$ is a triangle. $AB = 8.7$ cm. Angle $ABC = \ang{49}$. Angle $ACB = \ang{64}$.\\
+Calculate the area of triangle $ABC$. Give your answer correct to 3 significant figures.\mrk{5}\\[3.5cm]\vspace*{0pt}\hfill\dline cm$^2$.
+\item \mbox{}
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[scale=1.6]
+    \tkzDefPoints{0/0/S, 2/0/R, 0/2/P, 4/2/Q, 6/1.5/L}
+
+    \tkzDrawPolygon(S,R,Q,P)
+    \tkzDrawSegments(P,R)
+    \begin{scope}[decoration={
+      markings,
+      mark=at position 0.4 with {\arrow{latex}}}
+      ]
+      \tkzDrawSegments[postaction={decorate}](S,R P,Q)
+    \end{scope}
+
+    \tkzLabelSegment[left](P,S){8 cm}
+    \tkzLabelSegment[above](P,Q){14 cm}
+
+    \tkzMarkAngles[size=0.9, mark=none](P,R,S)
+    \tkzLabelAngle[pos=0.5](P,R,S){$62^\circ$}
+
+    \tkzLabelPoints[below left](S)
+    \tkzLabelPoints[below right](R)
+    \tkzLabelPoints[above left](P)
+    \tkzLabelPoints[above right](Q)
+
+    \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+    \tkzLabelPoint[below](L){accurately drawn}
+  \end{tikzpicture}
+\end{figure}
+$PQRS$ is a trapezium. $PQ$ is parallel to $SR$. Angle $PSR = \ang{90}$. Angle $PRS = \ang{62}$. $PQ = 14$ cm. $PS = 8$ cm.
+\begin{enumerate}
+  \item Work out the length of $PR$. Give your answer correct to 3 significant figures.\mrk{3}\\[2cm]\vspace*{0pt}\hfill\dline cm.
+  \item Work out the length of $QR$. Give your answer correct to 3 significant figures.\mrk{3}\\[2cm]\vspace*{0pt}\hfill\dline cm.
+\end{enumerate}
+\item 
 
 
 
