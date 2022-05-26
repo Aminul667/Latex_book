@@ -15,5 +15,89 @@
   \end{enumerate}
   \newpage
   \item Finding the equation of a line parallel or perpendicular to another.
+  \begin{enumerate}
+    \item Give the equation of the line which is parallel to $y = 4x + 3$ and goes through the point $(4,5)$.\strch
+    \item Give the equation of the line which is parallel to $y = \frac{1}{3} x - 2$ and goes through the point $(9,5)$.\strch
+    \item Give the equation of a line which is perpendicular to $y = 2x + 1$.\strch
+    \item Give the equation of the line which is perpendicular to $y = 5x + 6$ and goes through the point $(-15,2)$.\strch
+  \end{enumerate}
+  \item Finding where a line intercepts the $x$ or $y$ axis.
+  \begin{enumerate}
+    \item The y-axis:\strch
+    \item The x-axis:\strch
+  \end{enumerate}
+  \newpage
+  \item At what point does $y = 3x - 2$ intercept:
+  \begin{enumerate}
+    \item The y-axis: \strch
+    \item The x-axis: \strch
+  \end{enumerate}
+  \item A and B are straight lines. Line A has equation $2y = 3x + 8$. Line B goes through the points $(-1, 2)$ and $(2, 8)$. Do lines A and B intersect? You must show all your working.\mrk{3}\strch
+  \item \mbox{}
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[>=latex, scale=0.8]
+      \tkzDefPoints{-1/0/X1, 6/0/X2, 0/-2.5/Y1, 0/6/Y2, 0/-1.5/P, 5/2/B}
+
+      \tkzDrawSegment[->](X1,X2)
+      \tkzDrawSegment[->](Y1,Y2)
+
+      \tkzInterLL(P,B)(X1,X2)
+      \tkzGetPoint{A}
+
+      \tkzDefLine[perpendicular=through A](P,B)
+      \tkzGetPoint{d}
+
+      \tkzInterLL(A,d)(Y1,Y2)
+      \tkzGetPoint{D}
+
+      \tkzDefLine[perpendicular=through D](D,A)
+      \tkzGetPoint{c1}
+
+      \tkzDefLine[perpendicular=through B](A,B)
+      \tkzGetPoint{c2}
+
+      \tkzInterLL(B,c2)(D,c1)
+      \tkzGetPoint{C}
+
+      \tkzDrawSegments(P,B A,D D,C B,C)
+      \tkzMarkRightAngles(D,A,B A,B,C B,C,D C,D,A)
+
+      \tkzLabelPoints[below left](P)
+      \tkzLabelPoints[below](A)
+      \tkzLabelPoints[right](B)
+      \tkzLabelPoints[above](C)
+      \tkzLabelPoints[left](D)
+    \end{tikzpicture}
+  \end{figure}
+  $ABCD$ is a square. $P$ and $D$ are points on the $y$-axis. $A$ is a point on the $x$-axis. $PAB$ is a straight line.\\
+  The equation of the line that passes through the points $A$ and $D$ is $y = -2x + 6$. Find the length of $PD$.\mrk{4}\strch
+  \newpage
+  \item \mbox{}
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[>=latex, scale=0.8]
+      \tkzDefPoints{-4/0/X1, 4/0/X2, 0/-4/Y1, 0/4/Y2, -0.6/1/A, 3/3.5/B, 7/3/L}
+
+      \tkzDrawSegment[->](X1,X2)
+      \tkzDrawSegment[->](Y1,Y2)
+
+      \tkzDrawPoints[shape=cross out, size=4pt](A,B)
+
+      \tkzLabelPoint[above left](A){A(-1,2)}
+      \tkzLabelPoint[above right](B){B(7,5)}
+
+      \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+        \tkzLabelPoint[below](L){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  $A$ is the point $(-1, 2)$. $B$ is the point $(7, 5)$.
+  \begin{enumerate}
+    \item Find the coordinates of the midpoint of $AB$.\strch \\\vspace*{0pt}\hfill(\dline,\dline)
+    \item a
+  \end{enumerate}
+
+
+
 \end{enumerate}
 
