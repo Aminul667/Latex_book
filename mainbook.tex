@@ -29,11 +29,19 @@
 \newcommand{\mrk}[1]{\hfill\textbf{(#1)}}
 \newcommand{\strch}{\vspace{\stretch{1}}}
 \newcommand{\dline}{\tikz\draw[thick, dashed] (0,0) -- (3,0);}
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
 
 \parindent 0ex
 \setlength{\parskip}{1em}
 
 \graphicspath{{images}}
+
+\tikzset{
+  arrowMe/.style = {
+    postaction = decorate,
+    decoration = {markings, mark=at position .5 with {\arrow[thick]{#1}}}
+  }
+}
 
 \begin{document}
   % \input{chapters/coverpage.tex}
@@ -48,5 +56,6 @@
   % \input{chapters/chapter8.tex}
   % \input{chapters/chapter9.tex}
   % \input{chapters/chapter10.tex}
-  \input{chapters/chapter11.tex}
+  % \input{chapters/chapter11.tex}
+  \input{chapters/chapter13.tex}
 \end{document}

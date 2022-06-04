@@ -1,0 +1,72 @@
+\chapter{GCSE Revision Questions - Vectors}
+
+\begin{enumerate}
+  \item \mbox{}
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{0/0/A, 2/0/O, 3/5/B, -2/4/Y, 5/4/P}
+      \tkzDrawPolygon(A,O,B,Y)
+      
+      \tkzDrawSegments(A,B O,Y)
+      \tkzInterLL(A,B)(O,Y)
+      \tkzGetPoint{X}
+
+      \tkzDrawSegments[arrowMe=Triangle](O,A B,Y O,B);
+
+      \tkzLabelSegments[above = 4pt](B,Y){$5a - b$}
+      \tkzLabelSegments[right = 4pt](O,B){$6b$}
+      \tkzLabelSegments[below = 4pt](O,A){$3a$}
+
+      \tkzLabelPoints[below](A,O)
+      \tkzLabelPoints[above](B,Y)
+      \tkzLabelPoints[left=4pt](X)
+
+      \tkzLabelPoint[above](P){Diagram \textbf{NOT}}
+      \tkzLabelPoint[below](P){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  OAYB is a quadrilateral. $\overbar{OA} = 3\vb{a}$ and $\overbar{OB} = 6\vb{b}$.
+  \begin{enumerate}
+    \item Express $\overbar{AB}$ in terms of $\vb{a}$ and $\vb{b}$.\mrk{1}\\[2cm]\vspace*{0pt}\hfill\dline
+    \suspend{enumerate}
+      $X$ is the point on $AB$ such that $AX : XB = 1 : 2$ and $\overbar{BY} = 5\vb{a} - \vb{b}$.
+    \resume{enumerate}
+    \item Prove that $\overbar{OX} = \frac{2}{5}\overbar{OY}$.\mrk{1}\\[2.5cm]\vspace*{0pt}\hfill\dline
+  \end{enumerate}
+  \item \mbox{}
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{0/0/P, 5/0/Q, 7/3/R, 9/2.5/L}
+
+      \tkzDefParallelogram(P,Q,R)
+      \tkzGetPoint{S}
+
+      \tkzDrawPolygon(P,Q,R,S)
+
+      \tkzDrawSegments[arrowMe=Triangle](P,Q P,S);
+      \tkzDrawSegments(S,Q)
+      \tkzMarkSegments[mark=|, pos=0.6](S,Q)
+
+      \tkzLabelSegments[below = 4pt](P,Q){$\vb{a}$}
+      \tkzLabelSegments[left = 4pt](P,S){$\vb{b}$}
+      \tkzLabelSegments[above = 4pt, pos=0.7](S,Q){N}
+
+      \tkzLabelPoints[above](S,R)
+      \tkzLabelPoints[below=4pt](P,Q)
+
+      \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+      \tkzLabelPoint[below](L){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  PQRS is a parallelogram. $N$ is the point on $SQ$ such that $SN : NQ = 3 : 2$\\
+  $\overbar{PQ} = \vb{a}$\\
+  $\overbar{PS} = \vb{b}$
+  \begin{enumerate}
+    \item Write down, in terms of $\vb{a}$ and $\vb{b}$, an expression for $\overbar{SQ}$.\mrk{1}\\[2cm]\vspace*{0pt}\hfill$\overbar{SQ}$\dline
+    \item Express $\overbar{NR}$ in terms of $\vb{a}$ and $\vb{b}$.\mrk{3}\\[3cm]\vspace*{0pt}\hfill$\overbar{NR}$\dline
+  \end{enumerate}
+
+
+\end{enumerate}
