@@ -60,7 +60,11 @@
           ylabel = {$y$},
         ]
         \filldraw[color=black, fill=gray, opacity=0.2, very thick] (-4,2) -- (-1,2) -- (-3,-2) -- (-4,2);
+        \draw[color=black, very thick] (-4,2) -- (-1,2) -- (-3,-2) -- (-4,2);
+
         \filldraw[color=black, fill=gray, opacity=0.2, very thick] (2,1) -- (5,1) -- (3,-3) -- (2,1);
+        \draw[color=black, very thick] (2,1) -- (5,1) -- (3,-3) -- (2,1);
+
         \node at (-2.5,1.5) {\textbf{P}};
         \node at (3.5,1.5) {\textbf{Q}};
       \end{axis}
@@ -84,6 +88,7 @@
           ylabel = {$y$},
       ]
       \filldraw[color=black, fill=gray, opacity=0.2, very thick] (1,2) -- (1,4) -- (5,6) -- (5,2) -- (1,2);
+      \draw[color=black, very thick] (1,2) -- (1,4) -- (5,6) -- (5,2) -- (1,2);
       \end{axis}
     \end{tikzpicture}
   \end{figure}
@@ -103,6 +108,7 @@
           ylabel = {$y$},
         ]
         \filldraw[color=black, fill=gray, opacity=0.2, very thick] (1,1) -- (1,3) -- (3,3) -- (4,1) -- (1,1);
+        \draw[color=black, very thick] (1,1) -- (1,3) -- (3,3) -- (4,1) -- (1,1);
         \node at (2,2) {\textbf{P}};
       \end{axis}
     \end{tikzpicture}
@@ -128,8 +134,12 @@
         ]
         \filldraw[color=black, fill=gray, opacity=0.2, very thick]
           (3,1) -- (4,1) -- (4,4) -- (2,4) -- (2,2) -- (3,2) -- (3,1);
+        \draw[color=black, very thick]
+          (3,1) -- (4,1) -- (4,4) -- (2,4) -- (2,2) -- (3,2) -- (3,1);
 
         \filldraw[color=black, fill=gray, opacity=0.2, very thick]
+          (-3,1) -- (-4,1) -- (-4,-2) -- (-2,-2) -- (-2,0) -- (-3,0) -- cycle;
+        \draw[color=black, very thick]
           (-3,1) -- (-4,1) -- (-4,-2) -- (-2,-2) -- (-2,0) -- (-3,0) -- cycle;
 
         \node at (3.5,3.5) {\textbf{A}};
@@ -310,7 +320,138 @@
     \end{figure}
     Enlarge triangle \textbf{B} by scale factor $3$, centre $(1, 2)$.
   \end{enumerate}
+  \newpage
+  \item \mbox{}
+    \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=0.4]
+        \begin{axis}[
+            xmin = -2, xmax = 7,
+            ymin = -2, ymax = 7,
+            grid = both,
+            axis lines = middle,
+            width = \textwidth,
+            height = \textwidth,
+            xlabel = {$x$},
+            ylabel = {$y$},
+          ]
+          \filldraw[color=black, fill=gray, opacity=0.2, very thick]
+            (2,1) -- (2,3) -- (1,3) -- cycle;
+          \draw[color=black, very thick]
+          (2,1) -- (2,3) -- (1,3) -- cycle;
 
-
-
+          \filldraw[color=black, fill=gray, opacity=0.2, very thick]
+            (4,3) -- (4,5) -- (5,3) -- cycle;
+          \draw[color=black, very thick]
+          (4,3) -- (4,5) -- (5,3) -- cycle;
+  
+          \node at (1.5,2.5) {\textbf{A}};
+          \node at (4.5,3.5) {\textbf{B}};
+        \end{axis}
+      \end{tikzpicture}
+    \end{figure}
+    Describe fully the single transformation that maps triangle \textbf{A} onto triangle \textbf{B}.\mrk{3}\\
+    \tikz\draw[thick, dashed] (0,0) -- (0.9\textwidth,0);
+    \item %
+    \begin{enumerate}
+      \item \mbox{}
+      \begin{figure}[H]
+        \centering
+        \begin{tikzpicture}[scale=0.6]
+          \begin{axis}[
+              xmin = -7, xmax = 7,
+              ymin = -6, ymax = 6,
+              grid = both,
+              axis lines = middle,
+              width = \textwidth,
+              height = \textwidth,
+              xlabel = {$x$},
+              ylabel = {$y$},
+            ]
+            \filldraw[color=black, fill=gray, opacity=0.2, very thick]
+              (1,2) -- (3,2) -- (4,2.5) -- (3,3) -- (1,3) -- cycle;
+            \draw[color=black, very thick]
+            (1,2) -- (3,2) -- (4,2.5) -- (3,3) -- (1,3) -- cycle;
+    
+            \node at (2,2.5) {\textbf{A}};
+          \end{axis}
+        \end{tikzpicture}
+      \end{figure}
+      On the grid above, reflect shape \textbf{A} in the line $x = 1$.\mrk{2}
+      \item \mbox{}
+      \begin{figure}[H]
+        \centering
+        \begin{tikzpicture}[scale=0.5]
+          \begin{axis}[
+              xmin = -6, xmax = 6,
+              ymin = -6, ymax = 6,
+              grid = both,
+              minor tick num = 4,
+              major grid style = {lightgray},
+              minor grid style = {lightgray!25},
+              axis lines = middle,
+              width = \textwidth,
+              height = \textwidth,
+              xlabel = {$x$},
+              ylabel = {$y$},
+            ]
+            \filldraw[color=black, fill=gray, opacity=0.2, very thick]
+              (1,2) -- (1,-4) -- (3,-4) -- cycle;
+            \draw[color=black, very thick]
+              (1,2) -- (1,-4) -- (3,-4) -- cycle;
+    
+            \node at (1.5,-2.5) {\textbf{A}};
+          \end{axis}
+        \end{tikzpicture}
+      \end{figure}
+      Enlarge triangle \textbf{A} by scale factor $-\frac{1}{2}$, centre $(-1, -2)$. Label your triangle \textbf{B}.\mrk{2}
+    \end{enumerate}
+    \item \mbox{}
+    \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=0.6]
+        \begin{axis}[
+            xmin = -7, xmax = 7,
+            ymin = -7, ymax = 7,
+            grid = both,
+            axis lines = middle,
+            width = \textwidth,
+            height = \textwidth,
+            xlabel = {$x$},
+            ylabel = {$y$},
+          ]
+          \filldraw[color=black, fill=gray, opacity=0.2, very thick]
+            (2,2) -- (4,3) -- (4,4) -- (2,4) -- cycle;
+          \draw[color=black, very thick]
+            (2,2) -- (4,3) -- (4,4) -- (2,4) -- cycle;
+  
+          \node at (3,3.5) {\textbf{T}};
+        \end{axis}
+      \end{tikzpicture}
+    \end{figure}
+    Enlarge shape \textbf{T} with scale factor $-1.5$, centre $(0, 2)$.\mrk{3}
+    \item \mbox{}
+    \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=0.5]
+        \begin{axis}[
+            xmin = -5, xmax = 7,
+            ymin = -5, ymax = 5,
+            grid = both,
+            axis lines = middle,
+            width = \textwidth,
+            height = \textwidth,
+            xlabel = {$x$},
+            ylabel = {$y$},
+          ]
+          \filldraw[color=black, fill=gray, opacity=0.2, very thick]
+            (2,1) -- (3,1) -- (2,3) -- cycle;
+          \draw[color=black, very thick]
+            (2,1) -- (3,1) -- (2,3) -- cycle;
+  
+          \node at (2.5,1.5) {\textbf{A}};
+        \end{axis}
+      \end{tikzpicture}
+    \end{figure}
+    Enlarge triangle \textbf{A} by scale factor $-1\frac{1}{2}$, centre $O$.\mrk{3}
 \end{enumerate}
