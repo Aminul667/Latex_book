@@ -67,6 +67,107 @@
     \item Write down, in terms of $\vb{a}$ and $\vb{b}$, an expression for $\overbar{SQ}$.\mrk{1}\\[2cm]\vspace*{0pt}\hfill$\overbar{SQ}$\dline
     \item Express $\overbar{NR}$ in terms of $\vb{a}$ and $\vb{b}$.\mrk{3}\\[3cm]\vspace*{0pt}\hfill$\overbar{NR}$\dline
   \end{enumerate}
+  \newpage
+  \item \mbox{}
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{0/0/A, 8/0/C, 1.5/-5/P, 1/-3.2/N, 9/-1.5/L}
+      \tkzDrawSegments(A,C)
+
+      \tkzDefMidPoint(A,C)
+      \tkzGetPoint{B}
+
+      \tkzDrawSegments[arrowMe=Triangle](A,B A,N N,P);
+      \tkzDrawSegments(B,P);
+
+      \tkzDefMidPoint(B,P)
+      \tkzGetPoint{M}
+
+      \tkzMarkSegments[mark=|, pos=0.66](A,P)
+      \tkzMarkSegments[mark=|, pos=0.5](B,P)
+
+      \tkzLabelSegments[above = 4pt](A,B){$\vb{a}$}
+      \tkzLabelSegments[left = 4pt](A,N){$2\vb{b}$}
+      \tkzLabelSegments[left = 4pt](N,P){$\vb{b}$}
+
+      % \tkzLabelPoints(A,B,C,P,N,M)
+      \tkzLabelPoints[above left](A)
+      \tkzLabelPoints[above right](B,C)
+      \tkzLabelPoints[below left=2pt](N)
+      \tkzLabelPoints[below right=2pt](M)
+
+      \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+      \tkzLabelPoint[below](L){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  $APB$ is a triangle. $N$ is a point on $AP$.
+  $$
+  \overbar{AB} = \vb{a}\qquad \overbar{AN} = 2\vb{b}\qquad \overbar{NP} = \vb{b}
+  $$
+  \begin{enumerate}
+    \item Find the vector ,$\overbar{PB}$ in terms of $\vb{a}$ and $\vb{b}$.\mrk{1}\\[2cm]\vspace*{0pt}\hfill\dline
+    \item $B$ is the midpoint of $AC$. $M$ is the midpoint of $PB$. Show that $NMC$ is a straight line.\mrk{4}\\[4cm]\vspace*{0pt}\hfill\dline
+  \end{enumerate}
+  \newpage
+  \item \mbox{}
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      \tkzDefPoints{0/0/a, 3/0/b, 9/-1.5/L}
+
+      \tkzDefRegPolygon[side,sides=6,name=P](b,a)
+      \tkzDrawPolygon[thick](P1,P...,P6)
+      \tkzGetPoint{O}
+
+      \tkzDrawSegments[arrowMe=Triangle](O,P1 O,P2);
+      \tkzLabelSegments[left = 4pt](O,P2){$\vb{a}$}
+      \tkzLabelSegments[right = 4pt](O,P1){$\vb{b}$}
+
+      \tkzLabelRegPolygon[sep=1.05](O){B,A,F,E,D,C}
+
+      \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+      \tkzLabelPoint[below](L){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  $ABCDEF$ is a regular hexagon, with centre $O$. \\
+  $\overbar{OA} = \vb{a}$, $\overbar{OB} = \vb{b}$.
+  \begin{enumerate}
+    \item Write the vector $\overbar{AB}$ in terms of $\vb{a}$ and $\vb{b}$.\mrk{1}\\[2cm]\vspace*{0pt}\hfill\dline
+    \item The line $AB$ is extended to the point $K$ so that $AB : BK = 1 : 2$. Write the vector $\overbar{CK}$ in terms of $\vb{a}$ and $\vb{b}$. Give your answer in its simplest form..\mrk{3}\\[5cm]\vspace*{0pt}\hfill\dline
+  \end{enumerate}
+  \newpage
+  \item \mbox{}
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=1.2]
+      \tkzDefPoints{0/0/O,5/0/A, 4/3/B, 4.25/2.25/P, 8/1/L}
+
+      \tkzDrawSegments[arrowMe=Triangle](O,A O,B);
+      \tkzDrawSegments(A,B)
+      \tkzDrawPoints[shape=cross out, size=8pt](P)
+
+      \tkzLabelSegments[above = 4pt](O,A){$\vb{a}$}
+      \tkzLabelSegments[left = 4pt](O,B){$2\vb{b}$}
+
+      % % \tkzLabelPoints(A,B,C,P,N,M)
+      \tkzLabelPoints[below left](O)
+      \tkzLabelPoints[below right](A)
+      \tkzLabelPoints[above](B)
+      \tkzLabelPoints[right=4pt](P)
+
+      \tkzLabelPoint[above](L){Diagram \textbf{NOT}}
+      \tkzLabelPoint[below](L){accurately drawn}
+    \end{tikzpicture}
+  \end{figure}
+  $OAB$ is a triangle. $\overbar{OA} = \vb{a}$, $\overbar{OB} = \vb{b}$.
+  \begin{enumerate}
+    \item Find $\overbar{AB}$ in terms of $\vb{a}$ and $\vb{b}$.\mrk{1}\\[2cm]\vspace*{0pt}\hfill\dline
+    \item $P$ is the point on $AB$ such that $AP : PB = 3 : 1$. Find $\overbar{OP}$ in terms of $\vb{a}$ and $\vb{b}$. Give your answer in its simplest form.\mrk{3}\\[4cm]\vspace*{0pt}\hfill\dline
+  \end{enumerate}
+  
+
+
 
 
 \end{enumerate}
